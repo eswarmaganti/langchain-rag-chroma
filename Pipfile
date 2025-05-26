@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+langchain = "*"
+langchain-community = "*"
+chromadb = "*"
+tiktoken = "*"
+langchain-ollama = "*"
+unstructured = {extras = ["md"], version = "*"}
+langchain-chroma = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.0"
